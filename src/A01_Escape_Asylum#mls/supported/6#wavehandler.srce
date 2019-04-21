@@ -1,0 +1,67 @@
+scriptmain WaveHandler;
+
+    entity WaveHandler : et_name;
+
+    var
+        huntersInCurrentWave : level_var integer;
+        killed : level_var integer;
+        wave : level_var integer;
+
+
+    script InitWave1;
+    begin
+        huntersInCurrentWave := 1;
+        wave := 0;
+        settimer(0,20);
+
+        { MyHunter(hunter) }
+        AIAddSubPackForLeader('leader(leader)', 'myHunterAi');
+        AISetSubpackCombatType('leader(leader)', 'myHunterAi', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'myHunterAi', 'goalHuntPlayer');
+
+        Runscript('MyHunter(hunter)', 'Init');
+    end;
+
+
+    script InitWave2;
+    begin
+
+        huntersInCurrentWave := 2;
+        wave := 1;
+        settimer(0,15);
+
+
+        AIAddSubPackForLeader('leader(leader)', 'myHunterAi2');
+        AISetSubpackCombatType('leader(leader)', 'myHunterAi2', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'myHunterAi2', 'goalHuntPlayer');
+        Runscript('MyHunter2(hunter)', 'Init');
+
+        AIAddSubPackForLeader('leader(leader)', 'myHunterAi3');
+        AISetSubpackCombatType('leader(leader)', 'myHunterAi3', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'myHunterAi3', 'goalHuntPlayer');
+        Runscript('MyHunter3(hunter)', 'Init');
+
+    end;
+
+
+    script InitWave3;
+    begin
+        huntersInCurrentWave := 2;
+
+        wave := 2;
+        settimer(0,25);
+
+        AIAddSubPackForLeader('leader(leader)', 'myHunterAi4');
+        AISetSubpackCombatType('leader(leader)', 'myHunterAi4', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'myHunterAi4', 'goalHuntPlayer');
+        Runscript('MyHunter4(hunter)', 'Init');
+
+        AIAddSubPackForLeader('leader(leader)', 'myHunterAi5');
+        AISetSubpackCombatType('leader(leader)', 'myHunterAi5', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'myHunterAi5', 'goalHuntPlayer');
+        Runscript('MyHunter5(hunter)', 'Init');
+
+    end;
+
+
+end.

@@ -1,0 +1,92 @@
+scriptmain LevelScript;
+
+    entity
+        A01_Escape_Asylum : et_level;
+
+    var
+        huntersInCurrentWave : integer;
+        killed : integer;
+        wave : integer;
+
+
+    procedure InitAI;
+    begin
+        { Essential settings, load AI for the player and a fake player called Leader  }
+        AIAddPlayer('player(player)');
+        AIAddEntity('leader(leader)');
+
+        AISetHunterOnRadar('leader(leader)', FALSE);
+        AISetEntityAsLeader('leader(leader)');
+        AISetLeaderInvisible('leader(leader)');
+        AIEntityAlwaysEnabled('leader(leader)');
+        AIAddLeaderEnemy('leader(leader)', 'player(player)');
+
+        { Create a AI goal called "goalHuntPlayer" which will hunt "player(player)" }
+        AIDefineGoalHuntEnemy('goalHuntPlayer', 'player(player)', true, 1);
+    end;
+
+    script OnCreate;
+    var
+        pos, pos2 : Vec3D;
+
+    begin
+        { Initialize AI }
+        InitAI;
+
+        killed := 0;
+
+        { Move player to scene }
+        SetVector(pos, 0.13528, 22.4246, 46.9438);
+        MoveEntity(GetPlayer, pos, 1)
+
+
+        pos := getplayerposition;
+        pos.y := pos.y + 2.2;
+
+        pos.z := pos.z + 2.2;
+        SpawnMovingEntity('Mace_(CT)', pos, 'unique_name');
+
+        RunScript('WaveHandler', 'InitWave1');
+
+        starttimer;
+        showtimer;
+
+        ShowCounter;
+    end;
+
+    script HunterDied;
+    begin
+        IncrementCounter;
+
+        killed := killed + 1;
+
+        if killed = huntersInCurrentWave then begin
+
+            RunScript('A01_Escape_Asylum', 'NextRound');
+
+        end;
+    end;
+
+    script NextRound;
+    begin
+        killed := 0;
+        stoptimer;
+
+        if wave = 0 then begin
+            RunScript('WaveHandler', 'InitWave2');
+        end else if wave = 1 then begin
+            RunScript('WaveHandler', 'InitWave3');
+        end else if wave = 2 then begin
+            displaygametext("demo end");
+        end;
+
+        starttimer;
+    end;
+
+    script OnTimerEnded;
+        hidetimer;
+    begin
+
+    end;
+
+end.

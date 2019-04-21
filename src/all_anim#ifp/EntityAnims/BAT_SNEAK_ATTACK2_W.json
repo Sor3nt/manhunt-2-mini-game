@@ -1,0 +1,35 @@
+{
+    "frameTimeCount": 84.99999761581421,
+    "bones": [
+        {
+            "boneId": 1,
+            "frameType": 3,
+            "startTime": 85.0048828125,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            0.072265625,
+                            -0.02099609375,
+                            -0.02734375
+                        ]
+                    },
+                    {
+                        "position": [
+                            0.072265625,
+                            -0.02099609375,
+                            -0.02734375
+                        ]
+                    }
+                ],
+                "lastFrameTime": 84.99999761581421
+            },
+            "unknown1": "0b01",
+            "unknown2": "1900",
+            "unknown3": "0b01",
+            "unknown4": "ee0f"
+        }
+    ],
+    "unknown5": "00004040",
+    "entry": []
+}

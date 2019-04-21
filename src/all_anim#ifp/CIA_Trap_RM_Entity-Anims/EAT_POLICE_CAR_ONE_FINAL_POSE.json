@@ -1,0 +1,231 @@
+{
+    "frameTimeCount": 1.0000000521540642,
+    "bones": [
+        {
+            "boneId": 1,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            -8.59814453125,
+                            0.392578125,
+                            7.46240234375
+                        ]
+                    },
+                    {
+                        "position": [
+                            -8.59814453125,
+                            0.392578125,
+                            7.46240234375
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "0000",
+            "unknown2": "4a0b",
+            "unknown3": "0000",
+            "unknown4": "560b"
+        },
+        {
+            "boneId": 2,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            -0.001953125,
+                            0,
+                            0.0029296875
+                        ]
+                    },
+                    {
+                        "position": [
+                            -0.001953125,
+                            0,
+                            0.0029296875
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "0c00",
+            "unknown2": "0100",
+            "unknown3": "eeff",
+            "unknown4": "0010"
+        },
+        {
+            "boneId": 3,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            -0.8330078125,
+                            0.099609375,
+                            0.04541015625
+                        ]
+                    },
+                    {
+                        "position": [
+                            -0.8330078125,
+                            0.099609375,
+                            0.04541015625
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "be00",
+            "unknown2": "0000",
+            "unknown3": "0000",
+            "unknown4": "fc0f"
+        },
+        {
+            "boneId": 4,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            0.7275390625,
+                            0.099609375,
+                            0.02880859375
+                        ]
+                    },
+                    {
+                        "position": [
+                            0.7275390625,
+                            0.099609375,
+                            0.02880859375
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "9900",
+            "unknown2": "0000",
+            "unknown3": "0000",
+            "unknown4": "fd0f"
+        },
+        {
+            "boneId": 5,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            -0.828125,
+                            0.10107421875,
+                            3.576171875
+                        ]
+                    },
+                    {
+                        "position": [
+                            -0.828125,
+                            0.10107421875,
+                            3.576171875
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "0000",
+            "unknown2": "1c03",
+            "unknown3": "0000",
+            "unknown4": "b20f"
+        },
+        {
+            "boneId": 6,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            0.00341796875,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "position": [
+                            0.00341796875,
+                            0,
+                            0
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "9900",
+            "unknown2": "0000",
+            "unknown3": "0000",
+            "unknown4": "fd0f"
+        },
+        {
+            "boneId": 7,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            0.7744140625,
+                            0.10107421875,
+                            3.5439453125
+                        ]
+                    },
+                    {
+                        "position": [
+                            0.7744140625,
+                            0.10107421875,
+                            3.5439453125
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "0000",
+            "unknown2": "1c03",
+            "unknown3": "0000",
+            "unknown4": "b20f"
+        },
+        {
+            "boneId": 8,
+            "frameType": 3,
+            "startTime": 0.99609375,
+            "frames": {
+                "frames": [
+                    {
+                        "position": [
+                            0.00341796875,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "position": [
+                            0.00341796875,
+                            0,
+                            0
+                        ]
+                    }
+                ],
+                "lastFrameTime": 1.0000000521540642
+            },
+            "unknown1": "9900",
+            "unknown2": "0000",
+            "unknown3": "0000",
+            "unknown4": "fd0f"
+        }
+    ],
+    "unknown5": "00004040",
+    "entry": []
+}
