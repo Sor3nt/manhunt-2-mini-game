@@ -23,6 +23,7 @@ cat src/EntityTypeData#ini/Core/Leader.ini > src/$resource3Glg
 cat src/EntityTypeData#ini/Core/PlayerFight.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Core/Player.ini >> src/$resource3Glg
 
+cat src/EntityTypeData#ini/Hunters/KidHunter.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/MyHunter.ini >> src/$resource3Glg
 
 cat src/EntityTypeData#ini/Weapons/DaedraSword.ini >> src/$resource3Glg

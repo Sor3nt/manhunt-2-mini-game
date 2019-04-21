@@ -15,11 +15,11 @@ scriptmain WaveHandler;
         settimer(0,20);
 
         { MyHunter(hunter) }
-        AIAddSubPackForLeader('leader(leader)', 'myHunterAi');
-        AISetSubpackCombatType('leader(leader)', 'myHunterAi', COMBATTYPEID_OPEN_MELEE);
-        AIAddGoalForSubpack('leader(leader)', 'myHunterAi', 'goalHuntPlayer');
+        AIAddSubPackForLeader('leader(leader)', 'kidHunterAi');
+        AISetSubpackCombatType('leader(leader)', 'kidHunterAi', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'kidHunterAi', 'goalHuntPlayer');
 
-        Runscript('MyHunter(hunter)', 'Init');
+        Runscript('KidHunter(hunter)', 'Init');
     end;
 
 
