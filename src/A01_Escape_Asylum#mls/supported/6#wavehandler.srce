@@ -14,12 +14,18 @@ scriptmain WaveHandler;
         wave := 0;
         settimer(0,20);
 
-        { MyHunter(hunter) }
+        { MyHunter(hunter)
         AIAddSubPackForLeader('leader(leader)', 'kidHunterAi');
         AISetSubpackCombatType('leader(leader)', 'kidHunterAi', COMBATTYPEID_OPEN_MELEE);
         AIAddGoalForSubpack('leader(leader)', 'kidHunterAi', 'goalHuntPlayer');
 
         Runscript('KidHunter(hunter)', 'Init');
+}
+        AIAddSubPackForLeader('leader(leader)', 'wifeHunterAi');
+        AISetSubpackCombatType('leader(leader)', 'wifeHunterAi', COMBATTYPEID_OPEN_MELEE);
+        AIAddGoalForSubpack('leader(leader)', 'wifeHunterAi', 'goalHuntPlayer');
+
+        Runscript('WifeHunter(hunter)', 'Init');
     end;
 
 

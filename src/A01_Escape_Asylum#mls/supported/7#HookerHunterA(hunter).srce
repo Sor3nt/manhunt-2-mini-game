@@ -1,0 +1,23 @@
+scriptmain HookerHunterAScript;
+
+    entity HookerHunterA(hunter) : et_name;
+
+    var
+        hunterName : string[32];
+
+    script Init;
+    begin
+        hunterName := GetEntityName(this);
+
+        AIAddEntity(hunterName);
+        AIAddHunterToLeaderSubpack('leader(leader)', 'hookerHunterAAi', hunterName);
+
+        SetDamage(this, 5);
+    end;
+
+    script ondeath;
+    begin
+        RunScript('A01_Escape_Asylum', 'HunterDied');
+    end;
+
+end.
