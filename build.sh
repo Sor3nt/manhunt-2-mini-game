@@ -20,10 +20,13 @@ $mht pack src/entity_pc#inst --game=mh2 --platform=pc
 
 #Build EntityTypeData.ini (alias resource3.glg)
 cat src/EntityTypeData#ini/Core/Leader.ini > src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/NoHead.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Core/PlayerFight.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Core/Player.ini >> src/$resource3Glg
 
-cat src/EntityTypeData#ini/Hunters/Heads/NoHead.ini >> src/$resource3Glg
+
+cat src/EntityTypeData#ini/Responder/Can.ini >> src/$resource3Glg
+
 cat src/EntityTypeData#ini/Hunters/Heads/AsylumHeadA.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/Heads/AsylumHeadB.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/Heads/AsylumHeadC.ini >> src/$resource3Glg
@@ -89,5 +92,4 @@ cat src/EntityTypeData#ini/Weapons/TranqRifle.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Uzi.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/WBBat.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Wire.ini >> src/$resource3Glg
-
 

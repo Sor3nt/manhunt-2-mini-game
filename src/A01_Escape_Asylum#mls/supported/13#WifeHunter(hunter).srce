@@ -10,7 +10,7 @@ scriptmain WifeHunterScript;
         hunterName := GetEntityName(this);
 
         AIAddEntity(hunterName);
-        AIAddHunterToLeaderSubpack('leader(leader)', 'wifeHunterAi', hunterName);
+        { AIAddHunterToLeaderSubpack('leader(leader)', 'wifeHunterAi', hunterName); }
 
         SetDamage(this, 5);
     end;

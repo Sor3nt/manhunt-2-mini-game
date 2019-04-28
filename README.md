@@ -65,6 +65,12 @@ no errors ? Yay, you are done :)
 - WBBat
 - Wire
 
+## Changes
+
+Shard RED Execution :
+* Animation taken from PS2 Leak.
+* Add head explosions
+
 ## Quick tut how to spawn weapon
  
 - Open src/A01_Escape_Asylum#mls/supported/0#levelscript.srce

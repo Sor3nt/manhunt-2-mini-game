@@ -35,23 +35,32 @@ scriptmain LevelScript;
 
         killed := 0;
 
-        { Move player to scene }
+        { Move player to scene
         SetVector(pos, 0.13528, 22.4246, 46.9438);
         MoveEntity(GetPlayer, pos, 1)
+}
 
 
-        pos := getplayerposition;
+        SetVector(pos, 23.2683, 16.8701, 35.8370);
+        MoveEntity(GetPlayer, pos, 1);
+
+
         pos.y := pos.y + 2.2;
-
         pos.z := pos.z + 2.2;
-        SpawnMovingEntity('Mace_(CT)', pos, 'unique_name');
+        SpawnMovingEntity('Shard_(CT)', pos, 'unique_name');
+
+        pos.y := pos.y + 2.2;
+        pos.z := pos.z + 2.2;
+        MoveEntity(getentity('MyHunter(hunter)'), pos, 1);
+
 
         RunScript('WaveHandler', 'InitWave1');
-
+{
         starttimer;
         showtimer;
 
         ShowCounter;
+        }
     end;
 
     script HunterDied;
