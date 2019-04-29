@@ -47,7 +47,7 @@ scriptmain LevelScript;
 
         pos.y := pos.y + 2.2;
         pos.z := pos.z + 2.2;
-        SpawnMovingEntity('Shard_(CT)', pos, 'unique_name');
+        SpawnMovingEntity('Chainsaw_(CT)', pos, 'unique_name');
 
         pos.y := pos.y + 2.2;
         pos.z := pos.z + 2.2;

@@ -56,6 +56,8 @@ cat src/EntityTypeData#ini/Weapons/Ak47.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Hammer.ini >> src/$resource3Glg
 
 
+#cat src/EntityTypeData#ini/Weapons/Machete.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Weapons/Chainsaw.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/6Shooter.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Bag.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/CircularSaw.ini >> src/$resource3Glg
