@@ -39,6 +39,16 @@ cat src/EntityTypeData#ini/Hunters/Heads/HookerHeadB.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/Heads/HorseHead.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/Heads/JanitorHead.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/Heads/WifeHeadA.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/SmilieHeadB1A.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/SmilieHeadB1B.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/SmilieHeadB1C.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/SmilieHeadM1A.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/SmilieHeadM1B.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/SmilieHeadM1C.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/BunnyHead.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/InoHeadB1A.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/InoHeadB1B.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Hunters/Heads/InoHeadB1C.ini >> src/$resource3Glg
 
 cat src/EntityTypeData#ini/Hunters/BodyWithHead/KidHunter.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Hunters/BodyWithHead/JudyHunter.ini >> src/$resource3Glg
@@ -53,10 +63,12 @@ cat src/EntityTypeData#ini/Hunters/Body/WifeHunter.ini >> src/$resource3Glg
 
 cat src/EntityTypeData#ini/Weapons/DaedraSword.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Ak47.ini >> src/$resource3Glg
-cat src/EntityTypeData#ini/Weapons/Hammer.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Weapons/HammerMajestic.ini >> src/$resource3Glg
 
 
 #cat src/EntityTypeData#ini/Weapons/Machete.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Weapons/Hammer.ini >> src/$resource3Glg
+cat src/EntityTypeData#ini/Weapons/Cleaver.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Chainsaw.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/6Shooter.ini >> src/$resource3Glg
 cat src/EntityTypeData#ini/Weapons/Bag.ini >> src/$resource3Glg
